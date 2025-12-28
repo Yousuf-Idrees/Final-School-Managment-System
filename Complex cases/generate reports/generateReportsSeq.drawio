@@ -1,0 +1,141 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.9">
+  <diagram name="Page-1" id="-jxjfJJOmO88FPQ8nmhF">
+    <mxGraphModel dx="1034" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ziuey_g3RR1Lw7r_J7es-49" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;size=65;" value=":Admin" vertex="1">
+          <mxGeometry height="892" width="35" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ziuey_g3RR1Lw7r_J7es-50" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="&lt;&lt;boundary&gt;&gt;&#xa;:ReportDashboard" vertex="1">
+          <mxGeometry height="892" width="150" x="310" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ziuey_g3RR1Lw7r_J7es-51" parent="Ziuey_g3RR1Lw7r_J7es-50" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" value="" vertex="1">
+          <mxGeometry height="688" width="10" x="70" y="109" as="geometry" />
+        </mxCell>
+        <mxCell id="Ziuey_g3RR1Lw7r_J7es-52" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="&lt;&lt;controller&gt;&gt;&#xa;:ReportHandler" vertex="1">
+          <mxGeometry height="892" width="150" x="610" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ziuey_g3RR1Lw7r_J7es-53" parent="Ziuey_g3RR1Lw7r_J7es-52" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" value="" vertex="1">
+          <mxGeometry height="570" width="10" x="70" y="163" as="geometry" />
+        </mxCell>
+        <mxCell id="Ziuey_g3RR1Lw7r_J7es-54" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="&lt;&lt;entity&gt;&gt;&#xa;:Student" vertex="1">
+          <mxGeometry height="892" width="150" x="883" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ziuey_g3RR1Lw7r_J7es-55" parent="Ziuey_g3RR1Lw7r_J7es-54" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" value="" vertex="1">
+          <mxGeometry height="44" width="10" x="70" y="217" as="geometry" />
+        </mxCell>
+        <mxCell id="Ziuey_g3RR1Lw7r_J7es-56" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="&lt;&lt;data access&gt;&gt;&#xa;:ReportDAO" vertex="1">
+          <mxGeometry height="892" width="150" x="1083" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ziuey_g3RR1Lw7r_J7es-57" parent="Ziuey_g3RR1Lw7r_J7es-56" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" value="" vertex="1">
+          <mxGeometry height="152" width="10" x="70" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="Ziuey_g3RR1Lw7r_J7es-58" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="&lt;&lt;entity&gt;&gt;&#xa;:AttendanceRecord" vertex="1">
+          <mxGeometry height="892" width="154" x="1293" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ziuey_g3RR1Lw7r_J7es-59" parent="Ziuey_g3RR1Lw7r_J7es-58" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" value="" vertex="1">
+          <mxGeometry height="34" width="10" x="72" y="379" as="geometry" />
+        </mxCell>
+        <mxCell id="Ziuey_g3RR1Lw7r_J7es-60" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="&lt;&lt;entity&gt;&gt;&#xa;:Report" vertex="1">
+          <mxGeometry height="892" width="150" x="1497" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ziuey_g3RR1Lw7r_J7es-61" parent="Ziuey_g3RR1Lw7r_J7es-60" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" value="" vertex="1">
+          <mxGeometry height="128" width="10" x="70" y="541" as="geometry" />
+        </mxCell>
+        <mxCell id="Ziuey_g3RR1Lw7r_J7es-62" edge="1" parent="1" source="Ziuey_g3RR1Lw7r_J7es-49" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="Ziuey_g3RR1Lw7r_J7es-51" value="requestReport(studentID, term)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="249" y="129" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ziuey_g3RR1Lw7r_J7es-63" edge="1" parent="1" source="Ziuey_g3RR1Lw7r_J7es-51" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="Ziuey_g3RR1Lw7r_J7es-53" value="generateReport(studentID, term)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="546" y="183" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ziuey_g3RR1Lw7r_J7es-64" edge="1" parent="1" source="Ziuey_g3RR1Lw7r_J7es-53" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="Ziuey_g3RR1Lw7r_J7es-55" value="getAcademicData(studentID)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="832" y="237" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ziuey_g3RR1Lw7r_J7es-65" edge="1" parent="1" source="Ziuey_g3RR1Lw7r_J7es-54" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="Ziuey_g3RR1Lw7r_J7es-53" value="studentData">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="833" y="291" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ziuey_g3RR1Lw7r_J7es-66" edge="1" parent="1" source="Ziuey_g3RR1Lw7r_J7es-53" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="Ziuey_g3RR1Lw7r_J7es-57" value="fetchAttendance(studentID)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="932" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ziuey_g3RR1Lw7r_J7es-67" edge="1" parent="1" source="Ziuey_g3RR1Lw7r_J7es-57" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="Ziuey_g3RR1Lw7r_J7es-59" value="query()">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1275" y="399" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ziuey_g3RR1Lw7r_J7es-68" edge="1" parent="1" source="Ziuey_g3RR1Lw7r_J7es-58" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="Ziuey_g3RR1Lw7r_J7es-57" value="return List&lt;Record&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1276" y="453" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ziuey_g3RR1Lw7r_J7es-69" edge="1" parent="1" source="Ziuey_g3RR1Lw7r_J7es-56" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="Ziuey_g3RR1Lw7r_J7es-53" value="attendanceList">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="933" y="507" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ziuey_g3RR1Lw7r_J7es-70" edge="1" parent="1" source="Ziuey_g3RR1Lw7r_J7es-53" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="Ziuey_g3RR1Lw7r_J7es-61" value="create(studentData, attendanceList)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1139" y="561" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ziuey_g3RR1Lw7r_J7es-71" edge="1" parent="1" source="Ziuey_g3RR1Lw7r_J7es-61" style="curved=1;endArrow=block;rounded=0;" target="Ziuey_g3RR1Lw7r_J7es-61" value="formatPDF()">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1627" y="615" />
+              <mxPoint x="1627" y="645" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ziuey_g3RR1Lw7r_J7es-72" edge="1" parent="1" source="Ziuey_g3RR1Lw7r_J7es-60" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="Ziuey_g3RR1Lw7r_J7es-53" value="pdfFile">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1140" y="699" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ziuey_g3RR1Lw7r_J7es-73" edge="1" parent="1" source="Ziuey_g3RR1Lw7r_J7es-53" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="Ziuey_g3RR1Lw7r_J7es-51" value="displayReport(pdfFile)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="547" y="753" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ziuey_g3RR1Lw7r_J7es-74" edge="1" parent="1" source="Ziuey_g3RR1Lw7r_J7es-51" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="Ziuey_g3RR1Lw7r_J7es-49" value="Show PDF Download">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="807" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
